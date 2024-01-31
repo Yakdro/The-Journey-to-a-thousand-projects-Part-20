@@ -1,0 +1,79 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:aliceblue;
+  color:cyan;
+  font-family:Toham, Sans, Sans-serif;
+
+}
+navbar, .list{
+  display:inline-block;
+}
+nav{
+  margin:0 0 350px 0;
+  background-color:orangered;
+  border-bottom:2px solid black;
+  height:auto;
+  width:100%;
+  position:fixed;
+  top:0;
+}
+.list{
+  margin:15px;
+}
+a{
+  text-decoration:none;
+  color:#000;
+  font-size:20px;
+  font-weight:540;
+  
+}
+#welcome-section{
+  background-color:black;
+  height:auto;
+  width:100%;
+  margin:0 0 20px 0;
+}
+h1{
+  text-align:center;
+  padding:150px 0  10px 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:50px;
+  font-weight:600;
+}
+p{
+  text-align:center;
+  padding:0 0 100px 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:20px;
+  font-weight:500;
+}
+.project-tile{
+  max-width: 640px;
+  margin:0 50px 0;
+  padding:150px 0  10px 0;
+   border-bottom:1px solid black;
+   display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  font-size:25px;
+  font-family:600;
+}
+@media only screen and (max-width:700px){
+  .project-tile{
+    font-size:18px;
+  }
+}
